@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nike - Luta contra o Racismo</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.slick/1.8.1/slick.min.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="https://jonasnike.com"><img src="imagens/logo (1).svg" alt="Nike"></a>
+    </div>
+  </div>
+  <nav>
+    <div class="menu-toggle">
+      <i class="fas fa-bars"></i>
+    </div>
+    <ul class="menu">
+      <li><a href="noticias-racismo.html">Campanha</a></li>
+      <li><a href="#">Lançamentos</a></li>
+      <li><a href="#">Ofertas</a></li>
+      <li><a href="#">Masculino</a></li>
+      <li><a href="#">Feminino</a></li>
+      <li><a href="#">Infantil</a></li>
+    </ul>
+  </nav>
+  <div class="search">
+    <input type="text" placeholder="Pesquisar">
+    <div class="icons">
+      <a href="#"><i class="far fa-heart"></i></a>
+      <a href="#"><i class="fas fa-shopping-cart"></i></a>
+    </div>
+  </div>
+  </header>
+  
+  <main>
+    <section id="move">
+      <div class="arrows">
+        <a href="#" class="arrow-left"><i class="fas fa-chevron-left"></i></a>
+        <a href="#" class="arrow-right"><i class="fas fa-chevron-right"></i></a>
+      </div>
+      <div class="content">
+        <div class="slide">
+          <p><strong>CARTÃO PRESENTE</strong> - para presentes de última hora</p>
+        </div>
+        <div class="slide">
+          <p><strong>TROCA GRÁTIS</strong> - confira os detalhes da nossa política de trocas</p>
+        </div>
+        <div class="slide">
+          <p><strong>CAMPANHA CONTRA O RACISMO</strong> - encontre sua liberdade aqui</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="banner">
+      <video src="https://nikevideo.nike.com/media/v1/pmp4/static/clear/72451143001/8807265b-b680-4f45-b0d7-5921d8cb9291/7dcbb3f9-deee-4436-bc85-328ba5d3e1ae/main.mp4" autoplay loop muted></video>
+      <div class="banner-content">
+      </div>
+    </div>
+    <section class="new-banner">
+      <img src="imagens/pegasus.avif">
+    </section>
+
+    <section id="hero">
+      <h1>Junte-se à luta contra o Racismo</h1>
+      <p>Envolva-se na campanha da Nike contra o racismo e faça a diferença.</p>
+      <a href="#" class="btn">Saiba mais</a>
+    </section>
+
+    <section id="about">
+      <h2>Sobre a campanha</h2>
+      <p>A Nike está comprometida em combater o racismo e promover a igualdade. Nossa campanha visa aumentar a conscientização e promover ações concretas para erradicar a discriminação racial em todas as suas formas. Junte-se a nós nessa luta!</p>
+    </section>
+
+    <section id="products">
+      <h2>Produtos</h2>
+      <div class="product">
+        <img src="imagens/nike1.jfif" alt="Produto 1">
+        <h3>Tênis Antirracismo</h3>
+        <p>Este tênis exclusivo foi criado para apoiar a campanha contra o racismo. Com design inovador e materiais de alta qualidade, ele oferece conforto e estilo para qualquer ocasião.</p>
+        <a href="#" class="btn">Comprar</a>
+      </div>
+      <div class="product">
+        <img src="imagens/camiseta corinthians.jfif" alt="Produto 2">
+        <h3>Camiseta Igualdade</h3>
+        <p>Mostre seu apoio à igualdade com esta camiseta exclusiva. Feita com algodão macio e durável, ela combina conforto e estilo em uma peça única.</p>
+        <a href="#" class="btn">Comprar</a>
+      </div>
+      <div class="product">
+        <img src="imagens/bone.jpg" alt="Produto 3">
+        <h3>Boné Antirracismo</h3>
+        <p>Proteja-se do sol com este boné exclusivo, que também transmite uma mensagem poderosa contra o racismo. Com ajuste personalizável, ele se adapta perfeitamente à sua cabeça.</p>
+        <a href="#" class="btn">Comprar</a>
+      </div>
+    </section>
+
+    <section id="newsletter">
+      <h2>Receba nossas novidades</h2>
+      <form action="#">
+        <input type="email" placeholder="Digite seu e-mail" required>
+        <button type="submit">Inscrever-se</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-logo">
+      <img src="imagens/logo (1).svg" alt="Nike">
+    </div>
+    <div class="footer-links">
+      <ul>
+        <li><a href="#">Campanha</a></li>
+        <li><a href="#">Lançamentos</a></li>
+        <li><a href="#">Ofertas</a></li>
+        <li><a href="#">Masculino</a></li>
+        <li><a href="#">Feminino</a></li>
+        <li><a href="#">Infantil</a></li>
+      </ul>
+    </div>
+    <div class="footer-social">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+    <div class="footer-info">
+      <p>&copy; 2023 Nike. Todos os direitos reservados.</p>
+      <p>Termos de Uso | Política de Privacidade</p>
+    </div>
+  </footer>
+
+  <script>
+    // Função para exibir ou ocultar o menu em dispositivos móveis
+    $(document).ready(function() {
+      $(".menu-toggle").click(function() {
+        $(".menu").toggleClass("active");
+      });
+    });
+  </script>
+</body>
+</html>

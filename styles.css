@@ -1,0 +1,753 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #000;
+  color: #fff;
+}
+
+.logo img {
+  height: 40px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ccc;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search input {
+  padding: 5px;
+  border: none;
+  border-radius: 3px;
+}
+
+.icons a {
+  color: #fff;
+  margin-left: 10px;
+  transition: color 0.3s;
+}
+
+.icons a:hover {
+  color: #ccc;
+}
+
+/* Main */
+section {
+  padding: 40px;
+}
+
+#move {
+  text-align: center;
+}
+
+.arrows a {
+  color: #000;
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.slide {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#hero {
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+#hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#hero p {
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 3px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #333;
+}
+
+#about {
+  text-align: center;
+}
+
+#about h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+#products {
+  text-align: center;
+}
+
+#products h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.product {
+  margin-bottom: 40px;
+}
+
+.product img {
+  margin-bottom: 20px;
+}
+
+.product h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.product p {
+  margin-bottom: 20px;
+}
+
+#newsletter {
+  text-align: center;
+  background-color: #f5f5f5;
+  padding: 60px 0;
+}
+
+#newsletter h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+#newsletter form {
+  margin-top: 20px;
+}
+
+#newsletter input[type="email"] {
+  padding: 10px;
+  width: 300px;
+  border: none;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+#newsletter button {
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#newsletter button:hover {
+  background-color: #333;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+}
+
+.footer-links ul {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.footer-links ul li {
+  margin-right: 10px;
+}
+
+.footer-links ul li a {
+  color: #fff;
+}
+
+.footer-social a {
+  color: #fff;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.footer-text p {
+  font-size: 14px;
+}
+
+/* Estilos para o menu */
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu li a {
+  display: block;
+  padding: 10px 20px;
+  color: #333;
+  text-decoration: none;
+}
+
+/* Estilos para o banner */
+.banner {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.carousel img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Estilos para a seção de produtos */
+.featured-products {
+  width: 100%;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.product {
+  display: inline-block;
+  width: 300px;
+  margin-right: 20px;
+  vertical-align: top;
+}
+
+.product img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+.product h3 {
+  margin: 10px 0;
+}
+
+.product p {
+  margin: 0;
+}
+
+.buy-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f8f8f8;
+  color: #333;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+/* Estilos para o rodapé */
+footer {
+  background-color: #f8f8f8;
+  padding: 20px;
+  text-align: center;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner-buttons {
+  position: absolute;
+  bottom: px; /* Ajuste a distância vertical conforme necessário */
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.banner-buttons a {
+  display: inline-block;
+  margin: 5px;
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+}
+
+.banner-buttons a:hover {
+  background-color: #333;
+}
+
+.banner {
+  position: relative;
+  text-align: center;
+}
+
+.banner img {
+  max-width: 100%;
+  height: auto;
+}
+
+.banner-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+}
+
+.banner-content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.banner-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.banner-content .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 3px;
+  transition: background-color 0.3s;
+  text-decoration: none;
+}
+
+.banner-content .btn:hover {
+  background-color: #333;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; /* Proporção de 16:9 para vídeos */
+  overflow: hidden;
+}
+
+.banner video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.banner-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.banner-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  z-index: 2;
+}
+
+.banner-text {
+  background-color: #fff;
+  text-align: center;
+  padding: 20px;
+  color: #000;
+}
+
+.banner-text h2 {
+  font-weight: bold;
+}
+.banner {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; /* Proporção de 16:9 para vídeos */
+  overflow: hidden;
+}
+
+.banner video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ... Seus estilos CSS anteriores ... */
+
+.new-banner {
+  background-color: rgb(7, 7, 7);
+  text-align: center;
+  padding: 1px;
+  color: #fff;
+  margin-top: 1px;
+}
+
+.new-banner h2 {
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.new-banner p {
+  margin-bottom: 0;
+}
+
+.banner-content {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  margin-top: 20px;
+  z-index: 2;
+}
+
+.banner-content h1,
+.banner-content p {
+  margin: 0;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; /* Proporção de 16:9 para vídeos */
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.banner video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ... Seus estilos CSS posteriores ... */
+
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+/* Estilos para o cabeçalho */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  z-index: 999;
+}
+
+/* Estilos para o conteúdo da página */
+.main-content {
+  margin-top: 60px; /* Adapte a margem superior conforme necessário para evitar que o conteúdo fique oculto sob o cabeçalho */
+  padding: 20px;
+}
+
+
+/* Estilos para a página noticias-racismo.html */
+
+/* Estilo do cabeçalho */
+header {
+  background-color: #020202;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  width: 100px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search input[type="text"] {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+.icons a {
+  color: #fff;
+  margin-left: 10px;
+}
+
+/* Estilo do slide */
+#move {
+  margin-top: 20px;
+}
+
+.arrows {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.arrow-left,
+.arrow-right {
+  color: #000;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.content {
+  display: flex;
+}
+
+.slide {
+  background-color: #000000;
+  padding: 20px;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
+/* Estilo do conteúdo principal */
+.main-content {
+  margin-top: 40px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.news {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #070707;
+  line-height: 1.5;
+}
+
+/* Estilo do rodapé */
+footer {
+  background-color: #0e0d0d;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Estilos para a página noticias-racismo.html */
+
+/* ... */
+
+.slide {
+  background-color: #f1f1f1;
+  padding: 20px;
+  margin-right: 10px;
+  border-radius: 4px;
+  transition: box-shadow 0.3s ease;
+}
+
+.slide:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilos para a página noticias-racismo.html */
+
+/* ... */
+
+.slide p:hover {
+  transform: scale(1.05);
+}
+
+/* Estilos para a página noticias-racismo.html */
+
+/* ... */
+
+.slide:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 767px) {
+  .logo {
+    text-align: center;
+  }
+
+  nav {
+    text-align: center;
+  }
+
+  .search {
+    text-align: center;
+  }
+
+  .main-content {
+    padding: 20px;
+  }
+
+  #move {
+    display: none;
+  }
+
+  .banner video {
+    display: none;
+  }
+
+  .new-banner {
+    background-image: url('imagens/pegasus.avif');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    margin-bottom: 20px;
+  }
+
+  #hero {
+    text-align: center;
+  }
+
+  #about {
+    text-align: center;
+  }
+
+  #products {
+    text-align: center;
+  }
+
+  #newsletter {
+    text-align: center;
+  }
+
+  .menu-toggle {
+    display: block;
+    text-align: right;
+    padding: 10px;
+    color: #333;
+    cursor: pointer;
+  }
+
+  .menu-toggle .fas {
+    font-size: 20px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .menu.active {
+    display: block;
+    text-align: center;
+  }
+
+  .menu ul {
+    padding: 0;
+    margin: 10px 0;
+  }
+
+  .menu ul li {
+    list-style: none;
+    margin-bottom: 10px;
+  }
+
+  .menu ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+}
+
